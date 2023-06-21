@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    background: #1F41A9;
+    box-sizing: border-box;
+}
+
+.select-profile-image-container {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../../../assets/images/Background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.select-profile-image-header {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.select-profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.file-input {
+    margin-bottom: 20px;
+}
+
+.selected-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.profile-picture-button {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #274FC7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-picture-button:hover {
+    background-color: #274FC7;
+}
